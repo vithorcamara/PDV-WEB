@@ -1,0 +1,22 @@
+.vendas_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.vendas_comp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #125e8a;
+  width: 95vw;
+  height: 40vh;
+  margin: 2.5vh auto;
+  border-radius: 1vw;
+  color: #23001e;
+  font-size: 10vh;
+}
+
+.vendas_comp:hover{
+  background-color: aquamarine;
+}

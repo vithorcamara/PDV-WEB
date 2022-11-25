@@ -1,0 +1,100 @@
+/*- Linha de comentário para teste push origin*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  top: 0;
+  margin: auto;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  height: 5vh;
+}
+
+#LOGO{
+  text-transform: uppercase;
+  letter-spacing: 0.5vw;
+  color: #e2ecee;
+  margin: auto;
+}
+
+main {
+  height: 90vh;
+  width: 99vw;
+  margin: auto;
+  background-color: white;
+}
+
+.nav-menu {
+  display: flex;
+  font-size: 2.5vh;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  justify-content: space-around;
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropbtn {
+  display: inline-block;
+  color: #23001e;
+  text-align: center;
+  margin: 0vh 1.5vw;
+  padding: 0.5vh 1vw;
+}
+
+li a:hover{
+  color: #125e8a;
+}
+ 
+.dropdown {
+  display: inline-block;
+  position: relative;
+  align-content: center;
+}
+
+.dropdown:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.5vh;
+  bottom: 0;
+  left: 0;
+  background-color: #125e8a;
+  transform-origin: bottom;
+  transition: transform 0.1s ease-out;
+}
+
+.dropdown:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom;
+}
+
+footer{
+  bottom: 0;
+  margin: auto;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  height: 5vh;
+}
+
+body{
+  overflow-x: hidden;
+  color: #23001e;
+  background-color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vh;
+}

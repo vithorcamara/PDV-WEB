@@ -1,0 +1,197 @@
+/*- Linha de comentário para teste push origin*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  margin: auto;
+  background-color:#e2ecee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  height: 10vh;
+}
+
+#resp-nav-menu{
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 906px){
+  .nav-menu{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 50vw;
+    height: 90vh;
+    background-color: #e2ecee;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+  .dropdown-content{
+    transform: translateX(200%);
+  }
+  #resp-nav-menu{
+    display: block;
+    margin: auto;
+  }
+  .nav-menu.active{
+    transform: translateX(0);
+  }
+}
+
+#FOBFB-LOGO{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #23001e;
+  margin: auto;
+}
+
+.nav-menu {
+  display: flex;
+  font-size: 15px;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  justify-content: space-around;
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #23001e;
+  text-align: center;
+  margin: 5px 3px 5px 3px;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+#donate {
+  color: #23001e;
+  background-color: #67b2d1;
+  border-radius: 10vw;
+}
+#donate:hover{
+    color: #125e8a;
+    background-color: #e8d1cb;
+  }
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: #125e8a;
+}
+ 
+li.dropdown {
+  display: inline-block;
+  align-content: center;
+}
+ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#e2ecee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0px;
+}
+ 
+.dropdown-content a {
+  color: #23001e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+ 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+main {
+  max-width: 90vw;
+  margin: auto; 
+  background-color: antiquewhite;
+}
+
+main > h1, main > h2 {
+  display: none;
+}
+
+ul.cont{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  overflow: hidden;
+  align-self: center;
+}
+
+li.cont{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#div_opt{
+  background-color: #a4a9ad;
+}
+
+ul.opt{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-self: center;
+}
+
+li.opt{
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 20px 0px;
+}
+
+button.opt{
+  font-family: 'Berkshire Swash', cursive;
+  color: #29192e;
+  text-align: center;
+  width: auto;
+  padding: 5px 14px;
+  text-decoration: none;
+  background-color: #67b2d1;
+  border: none;
+  border-radius: 10vw;
+}
+
+button.opt:hover{
+  background-color: #e2ecee;
+  color: #125e8a;
+}
+
+h1, h2{
+  color: #20a39e;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+h3{
+  color: #20a39e;
+  font-family: 'Berkshire Swash', cursive;
+}
+#terceira{
+  color: #de004e;
+}
+
+body{
+  overflow-x: hidden;
+  color: #23001e;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80%;
+}

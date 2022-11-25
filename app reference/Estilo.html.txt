@@ -1,0 +1,222 @@
+<style>
+
+#objetos{
+position: absolute;
+background-color: #00BFFF;
+left: 50px;
+top: 20px;
+}
+
+
+#Campo1{
+position: absolute;
+top: 70px;
+left: 180px;
+
+}
+
+#Label1{
+position: absolute;
+top: 70px;
+left: 110px;
+}
+
+#Campo2{
+position: absolute;
+top: 70px;
+left: 600px;
+}
+
+#Label2{
+position: absolute;
+top: 70px;
+left: 500px;
+}
+
+
+#Campo3{
+position: absolute;
+top: 110px;
+left: 180px;
+}
+
+#Label3{
+position: absolute;
+top: 110px;
+left: 110px;
+}
+
+#Campo4{
+position: absolute;
+top: 110px;
+left: 600px;
+}
+
+#Label4{
+position: absolute;
+top: 110px;
+left: 500px;
+}
+
+
+#Campo5{
+position: absolute;
+top: 150px;
+left: 180px;
+}
+
+#Label5{
+position: absolute;
+top: 150px;
+left: 110px;
+}
+
+#Campo6{
+position: absolute;
+top: 150px;
+left: 600px;
+}
+
+#Label6{
+position: absolute;
+top: 150px;
+left: 500px;
+}
+
+
+
+#Campo7{
+position: absolute;
+top: 190px;
+left: 180px;
+}
+
+#Label7{
+position: absolute;
+top: 190px;
+left: 110px;
+}
+
+#Campo8{
+position: absolute;
+top: 190px;
+left: 600px;
+}
+
+#Label8{
+position: absolute;
+top: 190px;
+left: 500px;
+}
+
+#Campo9{
+position: absolute;
+top: 230px;
+left: 180px;
+}
+
+#Label9{
+position: absolute;
+top: 230px;
+left: 110px;
+}
+
+#Campo10{
+position: absolute;
+top: 230px;
+left: 600px;
+}
+
+#Label10{
+position: absolute;
+top: 230px;
+left: 500px;
+}
+
+
+
+
+#btnlimpar{
+
+position: absolute;
+top: 300px;
+left: 100px;
+background-color: #A9A9A9;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+
+#btnpesquisar{
+position: absolute;
+top: 300px;
+left: 270px;
+background-color: #FFFF00;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+
+#btneditar{
+
+position: absolute;
+top: 300px;
+left: 450px;
+background-color: #FF4500;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+
+#btnsalvar{
+
+position: absolute;
+top: 300px;
+left: 630px;
+background-color: #00FF00;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+#btnexcluir{
+
+position: absolute;
+top: 300px;
+left: 790px;
+background-color: #FF0000;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+#Componentes{
+   display: none;
+   opacity: .8;
+   position: fixed;
+   top: 0px;
+   left:0px;
+   background: #FFF;
+   width: 100%;
+   z-index:10;   
+   }
+   
+   #CaixaMensagem {
+    display: none;
+    position: fixed;
+    background: #000;
+    border-radius: 7px;
+    width: 550px;
+    z-index:10;   
+   }
+   
+   #CaixaMensagem > div {background: #FFF; margin: 6px}
+   #CaixaMensagem > div > #TituloMsg{background: #FFFF00; font-size: 22px; padding:10px;color: #000;}
+   #CaixaMensagem > div > #CorpoMsg {background: #4169E1; font-size: 15px; padding:20px;color: #FFF;text-align:center;}
+   #CaixaMensagem > div > #RodapeMsg{background: #4169E1; padding:10px;text-align:center;}
+
+
+</style>
