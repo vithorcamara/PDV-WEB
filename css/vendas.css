@@ -4,6 +4,16 @@
   justify-content: space-around;
 }
 
+.link{
+  text-decoration: none;
+  color: #23001e;
+  width: 95vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .vendas_comp{
   display: flex;
   align-items: center;
