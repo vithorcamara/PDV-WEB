@@ -1,0 +1,30 @@
+.financeiro_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #125e;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: #23001e;
+    width: 33vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .financeiro_opt{
+    width: 33vw;
+    height: 5vh;
+    color: #23001e;
+    font-size: 3vh;
+  }
+  
+  .financeiro_opt:hover{
+    background-color: aquamarine;
+  }
+  #choice_page{
+    background-color: aquamarine;
+  }

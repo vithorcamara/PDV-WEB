@@ -1,32 +1,32 @@
-.vendas_main{
+.vendas_menu{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  background-color: #125e;
 }
 
 .link{
   text-decoration: none;
   color: #23001e;
-  width: 95vw;
-  height: 40vh;
+  width: 49.5vw;
+  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.vendas_comp{
+.vendas_opt{
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #125e;
-  width: 95vw;
-  height: 45vh;
-  margin: 2.5vh auto;
-  border-radius: 1vw;
+  align-items: center;
+  width: 49.5vw;
+  height: 5vh;
   color: #23001e;
-  font-size: 10vh;
+  font-size: 3vh;
 }
 
-.vendas_comp:hover{
+.vendas_opt:hover{
+  background-color: aquamarine;
+}
+#choice_page{
   background-color: aquamarine;
 }

@@ -1,19 +1,54 @@
-<div class="slider">
-  <div class="slides">
-    <div id="slide-1">
-      <a href="/vendas" onclick="route()">Vendas</a>
-    </div>
-    <div id="slide-2">
-      <a href="/produtos" onclick="route()">Produtos</a>
-    </div>
-    <div id="slide-3">
-      <a href="/compras" onclick="route()">Compras</a>
-    </div>
-    <div id="slide-4">
-      <a href="/financeiro" onclick="route()">Financeiro</a>
-    </div>
-    <div id="slide-5">
-      <a href="/meusdados" onclick="route()">Meus Dados</a>
+<div class="home_main">
+  <div class="home_comp">
+    <div>
+      <div class="home_txt">
+        <h1>Compras e Produtos</h1>
+      </div>
+      <div class="home_sbl">
+        <div><a href="/produtosnovo" onclick="route()">Adicionar Item</a></div>
+        <div><a href="/produtos" onclick="route()">Estoque de Produtos</a></div>
+        <div><a href="/compras" onclick="route()">Compras</a></div>
+      </div>
     </div>
   </div>
+  <div class="home_comp">
+    <div>
+      <div class="home_txt">
+        <h1>Clientes e Vendas</h1>
+      </div>
+      <div class="home_sbl">
+        <div><a href="/vendasclientesnovo" onclick="route()">Novo Cliente</a></div>
+        <div><a href="/vendasclientes" onclick="route()">Lista de Clientes</a></div>
+        <div><a href="/vendashistorico" onclick="route()">Histórico de Vendas</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="home_main">
+  <div class="home_comp">
+    <div>
+      <div class="home_txt">
+        <h1>Financeiro</h1>
+      </div>
+      <div class="home_sbl">
+        <div><a href="/financeirocaixa" onclick="route()">Movimento de Caixa</a></div>
+        <div><a href="/financeiroentrada" onclick="route()">Entrada de Caixa</a></div>
+        <div><a href="/financeirosaida" onclick="route()">Saída de Caixa</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="home_comp">
+    <div>
+      <div class="home_txt">
+        <h1>Configurações</h1>
+      </div>
+      <div class="home_sbl">
+        <div><a href="/configuracoes" onclick="route()">Meus Dados</a></div>
+        <div><a href="/configuracoesalteracao" onclick="route()">Alterar Dados</a></div>
+        <div><a href="/vendas" onclick="route()">Sair</a></div>
+      </div>
+    </div>
+  </div>
+
+</div>
 </div>
