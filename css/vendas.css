@@ -30,3 +30,65 @@
 #choice_page{
   background-color: aquamarine;
 }
+
+label{
+  font-size: 3vh;
+  text-decoration: none;
+  letter-spacing: 0.25vh;
+}
+
+.clientesadd_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.5vh auto;
+  width: 95vw;
+}
+
+.clientesadd_column{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh auto;
+  width: 95vw;
+}
+
+.clientesadd_info{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info{
+  width: 29vw;
+  height: 5vh;
+  border-color: #23001e;
+  border-radius: 1vw;
+  padding: 0 1vw;
+}
+
+.form-info-s{
+  width: 31vw;
+  height: 5vh;
+  border-color: #23001e;
+  border-radius: 1vw;
+  padding: 0 1vw;
+}
+
+#button_cad{
+  margin: 5vh 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1vh;
+  width: 30vw;
+  height: 5vh;
+  border-color: #23001e;
+  border-radius: 1vh;
+  background-color: #125e;
+}
+
+#button_cad:hover{
+  cursor: pointer;
+  background-color: aquamarine;
+}
