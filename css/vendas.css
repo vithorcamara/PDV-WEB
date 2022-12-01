@@ -4,14 +4,9 @@
   background-color: #125e;
 }
 
-.link{
-  text-decoration: none;
-  color: #23001e;
+#link_vendas{
   width: 49.5vw;
   height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .vendas_opt{
@@ -30,6 +25,48 @@
 #choice_page{
   background-color: aquamarine;
 }
+
+.vendasclientes_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#add_button{
+  width: 15vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5vh;
+  height: 5vh;
+  border-color: #23001e;
+  border-radius: 1vh;
+  background-color: #125e;
+}
+#add_button:hover{
+  cursor: pointer;
+  background-color: aquamarine;
+}
+#add_clientes{
+  width: 15vw;
+  height: 5vh;
+  border-radius: 1vh;
+}
+
+.vendasclientes_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2vw 2vh;
+}
+
+.vendasclientes_lista{
+  align-self: center;
+  overflow-y: scroll;
+  width: 97.5vw;
+  height: 65vh;
+  background-color: aquamarine;  
+}
+
 
 label{
   font-size: 3vh;
@@ -91,4 +128,12 @@ label{
 #button_cad:hover{
   cursor: pointer;
   background-color: aquamarine;
+}
+
+.link{
+  text-decoration: none;
+  color: #23001e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
