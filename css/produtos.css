@@ -1,0 +1,117 @@
+.produtos_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  #produtosadd_button{
+    width: 20vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5vh;
+    height: 5vh;
+    border-color: #23001e;
+    border-radius: 1vh;
+    background-color: #125e;
+    align-items: center;
+  }
+  #produtosadd_button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+  #produtosadd{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1vh;
+  }
+
+.produtos_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vw 2vh;
+  }
+  
+  .estoque_produtos{
+    align-self: center;
+    overflow-y: scroll;
+    width: 97.5vw;
+    height: 65vh;
+    background-color: aquamarine;  
+  }
+  label{
+    font-size: 3vh;
+    text-decoration: none;
+    letter-spacing: 0.25vh;
+  }
+  
+  .produtosadd_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 95vw;
+  }
+  
+  .produtosadd_column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh auto;
+    width: 95vw;
+  }
+  
+  .produtosadd_info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-info{
+    width: 29vw;
+    height: 5vh;
+    border-color: #23001e;
+    border-radius: 1vw;
+    padding: 0 1vw;
+  }
+
+  .form-info-n{
+    width: 92.75vw;
+    height: 5vh;
+    border-color: #23001e;
+    border-radius: 1vw;
+    padding: 0 1vw;
+  }
+  
+  .form-info-s{
+    width: 31vw;
+    height: 5.5vh;
+    border-color: #23001e;
+    border-radius: 1vw;
+    padding: 0 1vw;
+  }
+  
+  #button_cad{
+    margin: 5vh 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+    width: 30vw;
+    height: 5vh;
+    border-color: #23001e;
+    border-radius: 1vh;
+    background-color: #125e;
+  }
+  
+  #button_cad:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+  .link{
+    text-decoration: none;
+    color: #23001e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

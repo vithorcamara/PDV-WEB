@@ -67,7 +67,6 @@
   background-color: aquamarine;  
 }
 
-
 label{
   font-size: 3vh;
   text-decoration: none;
@@ -128,6 +127,47 @@ label{
 #button_cad:hover{
   cursor: pointer;
   background-color: aquamarine;
+}
+
+.vendashistorico_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#extrato_button{
+  width: 20vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5vh;
+  height: 5vh;
+  border-color: #23001e;
+  border-radius: 1vh;
+  background-color: #125e;
+}
+#extrato_button:hover{
+  cursor: pointer;
+  background-color: aquamarine;
+}
+#imprimir_extrato{
+  width: 20vw;
+  height: 5vh;
+  border-radius: 1vh;
+}
+
+.vendashistorico_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2vw 2vh;
+}
+
+.vendashistorico_lista{
+  align-self: center;
+  overflow-y: scroll;
+  width: 97.5vw;
+  height: 65vh;
+  background-color: aquamarine;  
 }
 
 .link{

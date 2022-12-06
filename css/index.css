@@ -50,6 +50,7 @@ main {
   text-align: center;
   margin: 0vh 1.5vw;
   padding: 0.5vh 1vw;
+  height: 5vh;
 }
 
 li a:hover{
@@ -60,6 +61,7 @@ li a:hover{
   display: inline-block;
   position: relative;
   align-content: center;
+  height: 5vh;
 }
 
 .dropdown:after {
@@ -93,6 +95,7 @@ footer{
 
 body{
   overflow-x: hidden;
+  overflow-y: hidden;
   color: #23001e;
   background-color: antiquewhite;
   font-family: 'Poppins', sans-serif;
